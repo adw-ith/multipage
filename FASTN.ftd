@@ -1,0 +1,19 @@
+-- import: fastn
+
+-- fastn.package: adw-ith.github.io/multipage
+favicon: /-/adw-ith.github.io/multipage/favicon.ico
+
+-- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/dark-flame-cs
+
+-- fastn.auto-import: adw-ith.github.io/multipage/FASTN/ds
+-- fastn.auto-import: adw-ith.github.io/multipage/assets
+-- fastn.auto-import: doc-site
+
+-- fastn.sitemap:
+
+# Home: index.html
+
+- Right Sidebar Sample: /sidebar/
