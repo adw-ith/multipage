@@ -42,8 +42,8 @@
     },
     "_FASTN_multipage/adw-ith.github.io_multipage_contact_": {
       "name": "_FASTN_multipage/adw-ith.github.io_multipage_contact_",
-      "checksum": "952E8852ED80BF75BE8F61F053D53FE909790D1BE3B885731C4481F3E0BE3DE9",
-      "size": 1905
+      "checksum": "0E143C90DFE4DF138D29271776F87FBBBB7BDB8A15C358FCF9E22734DDDC8A8D",
+      "size": 6721
     },
     "_FASTN_multipage/adw-ith.github.io_multipage_navbar": {
       "name": "_FASTN_multipage/adw-ith.github.io_multipage_navbar",
@@ -84,6 +84,16 @@
       "name": "_FASTN_multipage/fastn-community.github.io_design-system_components_button",
       "checksum": "482C50C9E28B02B0442818BE7654C1E9681478E123C83A77B25EE3479198C5A1",
       "size": 66590
+    },
+    "_FASTN_multipage/fastn-community.github.io_design-system_components_input": {
+      "name": "_FASTN_multipage/fastn-community.github.io_design-system_components_input",
+      "checksum": "269FE88AAD78BCF64C9FF0EA3F0AFB436E214675050742ACA049B12F19BFD66A",
+      "size": 25748
+    },
+    "_FASTN_multipage/fastn-community.github.io_design-system_components_text-area": {
+      "name": "_FASTN_multipage/fastn-community.github.io_design-system_components_text-area",
+      "checksum": "57DF5E9DB635D2CC0CDB1BFED3E7FD8E98FC774B081027B592330CEEEE3B4CDA",
+      "size": 6273
     },
     "_FASTN_multipage/fastn-community.github.io_design-system_foundation-elements_borders": {
       "name": "_FASTN_multipage/fastn-community.github.io_design-system_foundation-elements_borders",
@@ -162,8 +172,8 @@
     },
     "contact.ftd": {
       "name": "contact.ftd",
-      "checksum": "C3E6D3D837C5FEC918163E49F031455B69ED8C4F97D7CD251DA055E3DB280C83",
-      "size": 216
+      "checksum": "5985B2C92671DBE40FE1D903F89F9079188D92B41C4F53F963C0AAA69FC6ABA5",
+      "size": 867
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -182,8 +192,8 @@
     },
     "navbar.ftd": {
       "name": "navbar.ftd",
-      "checksum": "51921B10A96A9FC6ABA9A4A5FB867537EC28651C22A53C001768A12614F9E1B7",
-      "size": 584
+      "checksum": "D70359F1F6689D299CFAFA2951444D7D816FB6CFE0605FAB6F5A429EB974FB68",
+      "size": 554
     },
     "sidebar.ftd": {
       "name": "sidebar.ftd",
@@ -197,5 +207,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/adw-ith/multipage/zip/refs/heads/main",
-  "checksum": "E2DBFF2110D239F0D4B785C8B10EDDBA4DAC114A86E1EFE51CA6E6C7C08DE1C7"
+  "checksum": "17716C635BE6925310658660980880CCA7CD98AAEF5B02B176FCAD27E95000F2"
 }

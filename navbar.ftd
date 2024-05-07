@@ -17,15 +17,15 @@ width : hug-content
 -- ds.row:
 width : hug-content
 	-- ds.tertiary-button: Home
-	link: /multipage/index
+	link: /index
 	size: medium
 	
 	-- ds.link-button: About
-	link: /multipage/about
+	link: /about
 	size: medium
 	
 	-- ds.link-button: Contact
-	link: /multipage/contact
+	link: /contact
 	size: medium
 -- end: ds.row
 
