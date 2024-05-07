@@ -1,5 +1,5 @@
 -- import: fastn-community.github.io/design-system as ds
--- import: adw-ith.github.io/multipage/components/navbar as nv
+-- import: adw-ith.github.io/multipage/navbar as nv
 
 -- ds.page: Contact
 -- nv.nav:
