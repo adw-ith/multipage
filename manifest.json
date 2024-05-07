@@ -192,8 +192,8 @@
     },
     "navbar.ftd": {
       "name": "navbar.ftd",
-      "checksum": "8347C3B4ECC1B53EB5B2B1F00E2E74899AF7361F043DF6B39A2127F789624B60",
-      "size": 654
+      "checksum": "C5A37B128F347E66BE7967AC71DF17DBDE38E6910EF4C253B9B1C254C0AB491A",
+      "size": 578
     },
     "sidebar.ftd": {
       "name": "sidebar.ftd",
@@ -207,5 +207,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/adw-ith/multipage/zip/refs/heads/main",
-  "checksum": "18D1039D5705F8FC956D424223611DD8C45FE0C6C7A974AC232778F07C87C5C6"
+  "checksum": "AECBF2B09037BFABE83CC395BF7EA8838BFC3C64C6F86996B4E10CD7D41E9B10"
 }

@@ -17,15 +17,15 @@ width : hug-content
 -- ds.row:
 width : hug-content
 	-- ds.tertiary-button: Home
-	link: https://adw-ith.github.io/multipage/
+	link: index.html
 	size: medium
 	
 	-- ds.link-button: About
-	link: https://adw-ith.github.io/multipage/about
+	link: /multipage/about
 	size: medium
 	
 	-- ds.link-button: Contact
-	link: https://adw-ith.github.io/multipage/contact
+	link: /multipage/contact
 	size: medium
 -- end: ds.row
 
