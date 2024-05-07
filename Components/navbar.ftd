@@ -1,0 +1,35 @@
+-- import: fastn-community.github.io/design-system as ds
+
+
+-- component nav:
+
+-- ds.section-row:
+inset : $ds.spaces.inset-square.medium
+spacing : $ds.spaces.horizontal-gap.space-between
+
+-- ds.row:
+width : hug-content
+	-- ftd.text: LOGO
+	   role: $inherited.types.heading-small
+	
+-- end: ds.row
+
+-- ds.row:
+width : hug-content
+	-- ds.tertiary-button: Home
+	link: /index
+	size: medium
+	
+	-- ds.link-button: About
+	link: /about
+	size: medium
+	
+	-- ds.link-button: Contact
+	link: /contact
+	size: medium
+-- end: ds.row
+
+
+-- end: ds.section-row
+
+-- end : nav

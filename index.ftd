@@ -1,40 +1,91 @@
--- ds.page: Welcome to doc-site
+-- import: fastn-community.github.io/design-system as ds
+-- import: adw-ith.github.io/multipage/components/navbar as nv
+
+-- ds.page : Home
+
+-- nv.nav:
+
+-- hero:
+
+-- end : ds.page
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 
--- ds.h3: 🎯 Used by?
+-- component hero:
 
-Our all documentation sites uses this `doc-site` theme.
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.container:
+	-- hero-m:
+	-- hero-d:
+-- end: ftd.container
 
--- ds.h2: Learn fastn and become a pro?
+-- end: hero
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
--- end: ds.page
+-- component hero-d:
+-- ftd.desktop:
+	-- ds.section-row:
+		-- ds.column:
+			-- ftd.text: Welcome to
+			  role: $inherited.types.heading-hero
+			        padding.px: 0
+			-- ftd.text: Name1234
+			  role: $inherited.types.heading-hero
+			
+			
+			-- ftd.text: Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.ASDF is the sequence of letters that appear on the first four keys on the home row of a QWERTY or QWERTZ keyboard. They are often used as a sample or test case or as random, meaningless nonsense. It is also a common learning tool for keyboard classes, since all four keys are located on Home row.
+			
+			-- ds.primary-button: Explore
+			link: /
+			size: medium
+			radius: curved
+			
+		-- end: ds.column
+		-- ds.column:
+		
+			-- ftd.image:
+			src: $assets.files.images.bg.jpg
+			      width.fixed.px: 400
+			
+		-- end: ds.column
+
+	-- end: ds.section-row
+-- end: ftd.desktop
+-- end: hero-d
+
+
+
+-- component hero-m:
+-- ftd.mobile:
+	-- ds.section-column:
+		-- ds.column:
+		
+			-- ftd.image:
+			src: $assets.files.images.bg.jpg
+			      width.fixed.px: 400
+			
+		-- end: ds.column
+		-- ds.column:
+		inset : $ds.spaces.inset-square.medium
+		
+			-- ftd.text: Welcome to
+			  role: $inherited.types.heading-hero
+			        padding.px: 0
+			-- ftd.text: Name1234
+			  role: $inherited.types.heading-hero
+			
+			
+			-- ftd.text: Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.ASDF is the sequence of letters that appear on the first four keys on the home row of a QWERTY or QWERTZ keyboard. They are often used as a sample or test case or as random, meaningless nonsense. It is also a common learning tool for keyboard classes, since all four keys are located on Home row.
+			
+			-- ds.primary-button: Explore
+			link: /
+			size: medium
+			radius: curved
+			
+		-- end: ds.column
+
+
+	-- end: ds.section-column
+-- end: ftd.mobile
+-- end: hero-m
