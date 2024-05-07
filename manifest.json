@@ -47,8 +47,8 @@
     },
     "_FASTN_multipage/adw-ith.github.io_multipage_navbar": {
       "name": "_FASTN_multipage/adw-ith.github.io_multipage_navbar",
-      "checksum": "F4B131A12A3627D10A480E1DA88286CFA7AF0FF73750D8DD4C8D53A6D2AD1F0B",
-      "size": 4658
+      "checksum": "094BE8791CCCD103CD96BC28AB1164858CB1A2638CBB98AD045A5DEFDCE9251A",
+      "size": 4682
     },
     "_FASTN_multipage/fastn-community.github.io_dark-flame-cs": {
       "name": "_FASTN_multipage/fastn-community.github.io_dark-flame-cs",
@@ -207,5 +207,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/adw-ith/multipage/zip/refs/heads/main",
-  "checksum": "AECBF2B09037BFABE83CC395BF7EA8838BFC3C64C6F86996B4E10CD7D41E9B10"
+  "checksum": "DC957AAE4D1F405C88B60695E0AA68C74B955A761755195647FEEA37BA28C9C3"
 }
