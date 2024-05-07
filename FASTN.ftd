@@ -3,6 +3,7 @@
 -- fastn.package: adw-ith.github.io/multipage
 favicon: /-/adw-ith.github.io/multipage/favicon.ico
 
+-- fastn.dependency: fastn-community.github.io/design-system
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography

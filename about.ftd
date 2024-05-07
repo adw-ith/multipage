@@ -1,0 +1,17 @@
+-- import: fastn-community.github.io/design-system as ds
+-- import: adw-ith.github.io/multipage/navbar as nv
+
+-- ds.page: About
+
+-- nv.nav:
+-- ds.section-column:
+	-- ftd.text: About
+	role: $inherited.types.heading-large
+	
+	-- ds.row:
+	inset : $ds.spaces.inset-square.medium
+	
+		-- ftd.text: Lorem ipsum is used as dummy text to give an idea to designers and developers as to how the real text might appear. A graphic designer might use Lorem ipsum text to see how the text might be displayed or a software developer might want to use the text when developing an application before receiving an actual text from a client. Many websites initially have Lorem ipsum before the actual text is provided by the client for each section. The dummy text helps identify how the user interface will look like when text is added. Today, this is widely used in presentation templates, document templates, documents and even in website themes.
+	-- end: ds.row
+-- end: ds.section-column
+-- end: ds.page
