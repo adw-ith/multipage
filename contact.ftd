@@ -3,9 +3,48 @@
 
 -- ds.page: Contact
 -- nv.nav:
+-- contact:
+
 -- end: ds.page
 
 
 -- component contact:
--- ftd.text: hello
+-- ds.section-row:
+
+	-- ds.column:
+	width: hug-content
+	inset : $ds.spaces.inset-square.large
+	   border: $ds.borders.uniform.small
+	
+		-- ftd.text: Contact
+		role: $inherited.types.heading-medium
+		
+		-- ds.row:
+			-- ds.text-input: Name
+			size: small
+			radius: curved
+			-- ds.text-input: Email
+			size: small
+			radius: curved
+		-- end: ds.row
+
+		-- ds.row:
+			-- ds.text-input: Subject
+			size: small
+			radius: curved
+		-- end: ds.row
+
+		-- ds.row:
+			-- ds.text-area: Message
+			 placeholder: Enter your Message
+		-- end: ds.row
+
+		-- ds.primary-button: submit
+		link: /
+		size: medium
+		radius: curved
+		
+	-- end: ds.column
+
+-- end: ds.section-row
 -- end: contact
