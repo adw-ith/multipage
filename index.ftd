@@ -63,7 +63,7 @@
 		
 			-- ftd.image:
 			src: $assets.files.images.bg.jpg
-			      width.fixed.px: 400
+			      width.fixed.px: 300
 			
 		-- end: ds.column
 		-- ds.column:
